@@ -1,5 +1,5 @@
 # UCSD Men's Basketball: Performance & Matchup Analysis
-A data-driven investigation into UCSD's 2025-2026 season: quanitfying pace vulenrability, diagnosing the mid-season drop-off, and identifying optimal matchup conditions using advanced efficiency metrics.
+A data-driven investigation into UCSD's 2025-2026 season: quantifying pace vulenrability, diagnosing the mid-season drop-off, and identifying optimal matchup conditions using advanced efficiency metrics.
 
 ---
 
@@ -12,7 +12,7 @@ This project attempts to put numbers to that observation using KenPom-style effi
 
 ## Key Questions
 - Does UCSD's defensive efficiency measurably decline when opponents play at a high tempo?
-- After controlling for opponent quality, did UCSD's underlying performance actually deteroirate over the season?
+- After controlling for opponent quality, did UCSD's underlying performance actually deteriorate over the season?
 - Which of Dean Oliver's Four Factors (Effective Field Goal Percentage, Turnover Percentage, Offensive Rebounding Percentage, Free Throw Rate) broke down most consistently in losses?
 - What does an ideal matchup look like for this team, and what conditions predict a loss?
 
@@ -56,4 +56,4 @@ git clone https://github.com/esokite3/ucsd-basketball-analysis
 cd ucsd-basketball-analysis
 pip install -r requirements.txt
 jupyter notebook notebooks/01_scraping.ipnyb
-'''
+```
